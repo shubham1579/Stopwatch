@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    font-family: math;
+    color: white;
+    background-color: black;
+}
+
+#stopwatch-container {
+    margin-top: 9rem;
+    color: white;
+}
+
+h1{
+    font-size: 7rem;
+    margin-top: 3rem;
+}
+
+.entity{
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.btn-group i{
+    color: #0000FF;
+}
+
+.btn-group i:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+}
+
+#stopbtn{
+    cursor: pointer;
+}
+
+#startbtn{
+    cursor: pointer;
+}
+
+#resetbtn{
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    h1{
+        font-size: 4rem;
+    }
+
+    #display{
+        margin-top: 12rem;
+    }
+
+    .timer {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+    
+    .entity {
+        margin: 0 0.3rem; /* Adjust margin for smaller screens */
+        font-size: 1.5rem;
+    }
+    
+    .btn-group {
+        margin-top: 5rem;
+        width: 50%; /* Adjust button group width for smaller screens */
+    }
+
+    .btn-group i{
+        font-size: 3rem;
+    }
+
+    .btn-group i:hover{
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stopwatch</h1>
+    <div class="container" id="stopwatch-container">
+        <h1 id="display">
+            <span class="timer hour">00</span><span class="entity">Hr</span>
+            <span class="timer min">00</span><span class="entity">Min</span>
+            <span class="timer sec">00</span><span class="entity">Sec</span>
+            <span class="timer ms">00</span><span class="entity">ms</span>
+        </h1>
+        <div class="btn-group" role="group">
+            <div id="stopbtn"><i class="fa-solid fa-circle-stop fa-4x"></i></div>
+            <div id="startbtn"><i class="fa-solid fa-circle-play fa-4x"></i></div>
+            <div id="resetbtn"><i class="fa-solid fa-rotate-right fa-4x"></i></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
