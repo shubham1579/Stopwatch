@@ -51,6 +51,8 @@ h1{
     cursor: pointer;
 }
 
+
+/* Styles for smaller screens */
 @media (max-width: 576px) {
     h1{
         font-size: 4rem;
@@ -61,17 +63,17 @@ h1{
     }
 
     .timer {
-        font-size: 2.5rem; /* Adjust font size for smaller screens */
+        font-size: 2.5rem;
     }
     
     .entity {
-        margin: 0 0.3rem; /* Adjust margin for smaller screens */
+        margin: 0 0.3rem;
         font-size: 1.5rem;
     }
     
     .btn-group {
         margin-top: 5rem;
-        width: 50%; /* Adjust button group width for smaller screens */
+        width: 50%;
     }
 
     .btn-group i{
